@@ -67,28 +67,80 @@ These interactions help stabilize the ligand within the binding pocket and suppo
 ```text
 cyp3a4-hem-docking-analysis/
 ├── README.md
+├── .gitignore
+├── FILES_INCLUDED.txt
 ├── report/
 │   └── docking-analysis-cyp3a4-hem.pdf
-├── data/
-│   ├── receptor/
-│   │   ├── 1w0e_original.pdb
-│   │   ├── 1w0e.pdb
-│   │   └── 1w0e.pdbqt
-│   └── ligand/
-│       ├── HEM.pdb
-│       └── HEM.pdbqt
 ├── autodock/
+│   ├── 1w0e_original.pdb
+│   ├── 1w0e.pdb
+│   ├── 1w0e.pdbqt
+│   ├── HEM.pdb
+│   ├── HEM.pdbqt
+│   ├── HEM_docked.pdb
+│   ├── 1w0e.gpf
 │   ├── HEM.dpf
+│   ├── 1w0e.glg
 │   ├── HEM.dlg
+│   ├── 1w0e.A.map
+│   ├── 1w0e.C.map
+│   ├── 1w0e.d.map
+│   ├── 1w0e.e.map
+│   ├── 1w0e.Fe.map
+│   ├── 1w0e.N.map
+│   ├── 1w0e.OA.map
+│   ├── 1w0e.maps.fld
+│   └── 1w0e.maps.xyz
+├── vina/
+│   ├── 1w0e_original.pdb
+│   ├── 1w0e.pdb
+│   ├── 1w0e.pdbqt
+│   ├── HEM.pdb
+│   ├── HEM.pdbqt
+│   ├── HEM_out.pdbqt
+│   ├── config.txt
 │   ├── 1w0e.gpf
 │   ├── 1w0e.glg
-│   └── maps/
-├── vina/
-│   ├── config.txt
-│   └── HEM_out.pdbqt
-└── chimera/
-    ├── DockingOutput.conf
-    ├── DockingOutput.ligand.pdb
-    ├── DockingOutput.ligand.pdbqt
-    ├── DockingOutput.receptor.pdb
-    └── DockingOutput.receptor.pdbqt
+│   ├── 1w0e.A.map
+│   ├── 1w0e.C.map
+│   ├── 1w0e.d.map
+│   ├── 1w0e.e.map
+│   ├── 1w0e.Fe.map
+│   ├── 1w0e.N.map
+│   ├── 1w0e.OA.map
+│   ├── 1w0e.maps.fld
+│   └── 1w0e.maps.xyz
+├── chimera/
+│   ├── 1w0e.pdb
+│   ├── receptor.pdb
+│   ├── ligand.pdb
+│   ├── DockPrep.mol2
+│   ├── DockingOutput.conf
+│   ├── DockingOutput.pdbqt
+│   ├── DockingOutput.ligand.pdb
+│   ├── DockingOutput.ligand.pdbqt
+│   ├── DockingOutput.receptor.pdb
+│   ├── DockingOutput.receptor.pdbqt
+│   ├── overlaps31
+│   ├── overlaps32
+│   ├── overlaps41
+│   └── overlaps42
+└── autodock_second_run/
+    ├── 1w0e.pdb
+    ├── ligand.pdb
+    ├── ligand.pdbqt
+    ├── receptor.pdb
+    ├── receptor.pdbqt
+    ├── ligand.gpf
+    ├── ligand.glg
+    ├── receptor.dpf
+    ├── receptor.dlg
+    ├── receptor.A.map
+    ├── receptor.C.map
+    ├── receptor.d.map
+    ├── receptor.e.map
+    ├── receptor.Fe.map
+    ├── receptor.N.map
+    ├── receptor.OA.map
+    ├── receptor.maps.fld
+    └── receptor.maps.xyz
