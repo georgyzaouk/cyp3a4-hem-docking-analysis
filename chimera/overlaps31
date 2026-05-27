@@ -1,0 +1,10 @@
+Allowed overlap: 0.5
+H-bond overlap reduction: 0.4
+Ignore contacts between atoms separated by 4 bonds or less
+Detect intra-residue contacts: False
+Detect intra-molecule contacts: False
+
+2 contacts
+atom1  atom2  overlap  distance
+#3.1 HEM 1501.A CAD  #1 SER 119.A HB2   0.668  2.212
+#3.1 HEM 1501.A CGA  #1 ARG 375.A HH11  0.601  2.279
