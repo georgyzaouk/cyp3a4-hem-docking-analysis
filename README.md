@@ -1,14 +1,14 @@
 # CYP3A4-HEM Docking Analysis
 
-Molecular docking analysis of human Cytochrome P450 3A4 in complex with Protoporphyrin IX containing Fe (HEM), using the protein structure PDB ID: 1W0E.
+Molecular docking analysis of human Cytochrome P450 3A4 (CYP3A4) in complex with Protoporphyrin IX containing Fe (HEM), using the protein structure **PDB ID: 1W0E**.
 
-This project was completed as part of the Computational Biology course at the Lebanese American University.
+This project was completed as part of the **Computational Biology** course at the Lebanese American University.
 
 ## Overview
 
 Cytochrome P450 3A4 (CYP3A4) is an important enzyme involved in drug metabolism and detoxification. This project investigates the interaction between CYP3A4 and its HEM ligand through molecular docking and structural analysis.
 
-Docking simulations were performed using AutoDock and AutoDock Vina, while Chimera was used for molecular visualization, structure alignment, and interaction analysis.
+Docking simulations were performed using **AutoDock** and **AutoDock Vina**, while **UCSF Chimera** was used for molecular visualization, structure alignment, and interaction analysis.
 
 ## Tools Used
 
@@ -52,7 +52,7 @@ Model 2 showed the closest alignment to the experimental structure, with an RMSD
 
 ## Interaction Analysis
 
-The top-docked HEM pose showed stable positioning within the CYP3A4 binding pocket. The interaction analysis identified hydrogen bonding interactions involving residues such as:
+The top-docked HEM pose showed stable positioning within the CYP3A4 binding pocket. Hydrogen bonding interactions were identified with residues including:
 
 - ARG105
 - TRP126
@@ -66,81 +66,21 @@ These interactions help stabilize the ligand within the binding pocket and suppo
 
 ```text
 cyp3a4-hem-docking-analysis/
-├── README.md
-├── .gitignore
-├── FILES_INCLUDED.txt
+├── autodock_adt_main_run/
+├── autodock_adt_second_run/
+├── autodock_vina_adt_run/
+├── autodock_vina_chimera_run/
 ├── report/
-│   └── docking-analysis-cyp3a4-hem.pdf
-├── autodock/
-│   ├── 1w0e_original.pdb
-│   ├── 1w0e.pdb
-│   ├── 1w0e.pdbqt
-│   ├── HEM.pdb
-│   ├── HEM.pdbqt
-│   ├── HEM_docked.pdb
-│   ├── 1w0e.gpf
-│   ├── HEM.dpf
-│   ├── 1w0e.glg
-│   ├── HEM.dlg
-│   ├── 1w0e.A.map
-│   ├── 1w0e.C.map
-│   ├── 1w0e.d.map
-│   ├── 1w0e.e.map
-│   ├── 1w0e.Fe.map
-│   ├── 1w0e.N.map
-│   ├── 1w0e.OA.map
-│   ├── 1w0e.maps.fld
-│   └── 1w0e.maps.xyz
-├── vina/
-│   ├── 1w0e_original.pdb
-│   ├── 1w0e.pdb
-│   ├── 1w0e.pdbqt
-│   ├── HEM.pdb
-│   ├── HEM.pdbqt
-│   ├── HEM_out.pdbqt
-│   ├── config.txt
-│   ├── 1w0e.gpf
-│   ├── 1w0e.glg
-│   ├── 1w0e.A.map
-│   ├── 1w0e.C.map
-│   ├── 1w0e.d.map
-│   ├── 1w0e.e.map
-│   ├── 1w0e.Fe.map
-│   ├── 1w0e.N.map
-│   ├── 1w0e.OA.map
-│   ├── 1w0e.maps.fld
-│   └── 1w0e.maps.xyz
-├── chimera/
-│   ├── 1w0e.pdb
-│   ├── receptor.pdb
-│   ├── ligand.pdb
-│   ├── DockPrep.mol2
-│   ├── DockingOutput.conf
-│   ├── DockingOutput.pdbqt
-│   ├── DockingOutput.ligand.pdb
-│   ├── DockingOutput.ligand.pdbqt
-│   ├── DockingOutput.receptor.pdb
-│   ├── DockingOutput.receptor.pdbqt
-│   ├── overlaps31
-│   ├── overlaps32
-│   ├── overlaps41
-│   └── overlaps42
-└── autodock_second_run/
-    ├── 1w0e.pdb
-    ├── ligand.pdb
-    ├── ligand.pdbqt
-    ├── receptor.pdb
-    ├── receptor.pdbqt
-    ├── ligand.gpf
-    ├── ligand.glg
-    ├── receptor.dpf
-    ├── receptor.dlg
-    ├── receptor.A.map
-    ├── receptor.C.map
-    ├── receptor.d.map
-    ├── receptor.e.map
-    ├── receptor.Fe.map
-    ├── receptor.N.map
-    ├── receptor.OA.map
-    ├── receptor.maps.fld
-    └── receptor.maps.xyz
+└── README.md
+```
+
+## Folder Description
+
+- autodock_adt_main_run/: Main AutoDock workflow prepared and run using AutoDock Tools.
+- autodock_adt_second_run/: Second AutoDock run used to compare docking behavior and clustering differences.
+- autodock_vina_adt_run/: AutoDock Vina workflow prepared using AutoDock Tools.
+- autodock_vina_chimera_run/: AutoDock Vina workflow prepared through Chimera for additional exploration.
+- report/: Contains the final docking analysis report.
+
+## Note
+Executable files are not included in this repository. The repository focuses on docking input files, output files, configuration files, and the final analysis.
