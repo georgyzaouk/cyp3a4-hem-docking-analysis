@@ -1,0 +1,8 @@
+receptor = 1w0e.pdbqt
+ligand = HEM.pdbqt
+center_x = 58.562
+center_y = 77.922
+center_z = 14.185
+size_x = 18.75
+size_y = 18.75
+size_z = 18.75
