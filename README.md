@@ -2,8 +2,6 @@
 
 Molecular docking analysis of human Cytochrome P450 3A4 (CYP3A4) in complex with Protoporphyrin IX containing Fe (HEM), using the protein structure **PDB ID: 1W0E**.
 
-This project was completed as part of the **Computational Biology** course at the Lebanese American University.
-
 ## Overview
 
 Cytochrome P450 3A4 (CYP3A4) is an important enzyme involved in drug metabolism and detoxification. This project investigates the interaction between CYP3A4 and its HEM ligand through molecular docking and structural analysis.
@@ -84,3 +82,7 @@ cyp3a4-hem-docking-analysis/
 
 ## Note
 Executable files are not included in this repository. The repository focuses on docking input files, output files, configuration files, and the final analysis.
+
+## Project Context
+
+This project was completed as part of the **Computational Biology** course at the **Lebanese American University, Beirut**.
